@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import "./App.css";
+//importing our components needed
+import InputForm from './inputForm';
+import SmurfList from './smurfList';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>SMURFS! W/Redux</h1>
-        <div>Welcome to your state management version of Smurfs!</div>
-        <div>Start inside of your `src/index.js` file!</div>
-        <div>Have fun!</div>
+        <h1>SMURFS in the house! feat.Redux</h1>
+    {/* our created components imported below */}
+      <InputForm/>
+      <SmurfList/> 
+
       </div>
     );
   }
