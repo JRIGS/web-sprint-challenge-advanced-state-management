@@ -26,9 +26,8 @@ render() {
    </div>
     ))}
     </div>
-  )
-}
-
+     )
+    }
 }
 
 const mapStateToProps = (state) => {
